@@ -1,0 +1,25 @@
+.short-video-container {
+  width: 300px;
+  height: calc(100vh - 40px);
+  margin: 20px auto 0;
+  overflow: hidden;
+}
+
+.short-video-container > div {
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+  height: 100%;
+  width: 100%;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+    display: flex;
+  flex-direction: column;
+}
+
+body {
+  overflow-y: hidden;
+}
