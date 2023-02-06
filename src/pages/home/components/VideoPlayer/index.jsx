@@ -42,8 +42,7 @@ const VideoPlayer = (props) => {
         autoPlay
         muted = {!isSoundOn}
         loop
-        controls
-        // onClick={handleVideoClick}
+        onClick={handleVideoClick}
       />
       </VisibilitySensor>
       <div className='control-container'>
