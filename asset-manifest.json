@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/infinite-scroll-poc/static/css/main.fbf82a39.css",
+    "main.css": "/infinite-scroll-poc/static/css/main.169b15a6.css",
     "main.js": "/infinite-scroll-poc/static/js/main.81bd7f15.js",
     "static/js/787.b1e52a1b.chunk.js": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js",
     "static/media/Electric_Car_Insurance.mp4": "/infinite-scroll-poc/static/media/Electric_Car_Insurance.71f788769ae99c918aaf.mp4",
     "index.html": "/infinite-scroll-poc/index.html",
-    "main.fbf82a39.css.map": "/infinite-scroll-poc/static/css/main.fbf82a39.css.map",
+    "main.169b15a6.css.map": "/infinite-scroll-poc/static/css/main.169b15a6.css.map",
     "main.81bd7f15.js.map": "/infinite-scroll-poc/static/js/main.81bd7f15.js.map",
     "787.b1e52a1b.chunk.js.map": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf82a39.css",
+    "static/css/main.169b15a6.css",
     "static/js/main.81bd7f15.js"
   ]
 }
