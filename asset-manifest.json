@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/infinite-scroll-poc/static/css/main.0a800901.css",
-    "main.js": "/infinite-scroll-poc/static/js/main.5bc3b766.js",
+    "main.css": "/infinite-scroll-poc/static/css/main.5f8cfd0d.css",
+    "main.js": "/infinite-scroll-poc/static/js/main.99ed9600.js",
     "static/js/787.b1e52a1b.chunk.js": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js",
     "static/media/Electric_Car_Insurance.mp4": "/infinite-scroll-poc/static/media/Electric_Car_Insurance.71f788769ae99c918aaf.mp4",
     "index.html": "/infinite-scroll-poc/index.html",
-    "main.0a800901.css.map": "/infinite-scroll-poc/static/css/main.0a800901.css.map",
-    "main.5bc3b766.js.map": "/infinite-scroll-poc/static/js/main.5bc3b766.js.map",
+    "main.5f8cfd0d.css.map": "/infinite-scroll-poc/static/css/main.5f8cfd0d.css.map",
+    "main.99ed9600.js.map": "/infinite-scroll-poc/static/js/main.99ed9600.js.map",
     "787.b1e52a1b.chunk.js.map": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a800901.css",
-    "static/js/main.5bc3b766.js"
+    "static/css/main.5f8cfd0d.css",
+    "static/js/main.99ed9600.js"
   ]
 }
