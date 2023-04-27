@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/infinite-scroll-poc/static/css/main.5f8cfd0d.css",
-    "main.js": "/infinite-scroll-poc/static/js/main.0a633999.js",
+    "main.js": "/infinite-scroll-poc/static/js/main.86be9066.js",
     "static/js/787.b1e52a1b.chunk.js": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js",
     "static/media/Powerful_Skills_to_succeed_in_Sales.mp4": "/infinite-scroll-poc/static/media/Powerful_Skills_to_succeed_in_Sales.ef0b655f7bbfa5eb9381.mp4",
     "static/media/How_Does_Insurance_Work.mp4": "/infinite-scroll-poc/static/media/How_Does_Insurance_Work.d523b6e18d4fe42bb72e.mp4",
@@ -11,11 +11,11 @@
     "static/media/flashcard1_English.mp4": "/infinite-scroll-poc/static/media/flashcard1_English.a811c6d601bd9da4f35a.mp4",
     "index.html": "/infinite-scroll-poc/index.html",
     "main.5f8cfd0d.css.map": "/infinite-scroll-poc/static/css/main.5f8cfd0d.css.map",
-    "main.0a633999.js.map": "/infinite-scroll-poc/static/js/main.0a633999.js.map",
+    "main.86be9066.js.map": "/infinite-scroll-poc/static/js/main.86be9066.js.map",
     "787.b1e52a1b.chunk.js.map": "/infinite-scroll-poc/static/js/787.b1e52a1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f8cfd0d.css",
-    "static/js/main.0a633999.js"
+    "static/js/main.86be9066.js"
   ]
 }
