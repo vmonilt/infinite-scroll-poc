@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import VideoPlayer from "./components/VideoPlayer";
 
 import { VIDEOS_DATA } from "./duck/constants";
+import QuizItem from "./components/quiz";
 
 import "./style/style.css";
 
@@ -141,10 +142,14 @@ const Home = () => {
     if (isFirstTimeLoad) {
       setFirstTimeLoad(false);
     }
-    
+
     console.log("Slide before change " + index);
     slick_is_animating = true;
   };
+
+  const submitted = (index) => {
+
+  }
 
   const settings = {
     dots: false,
@@ -173,17 +178,22 @@ const Home = () => {
               {Array.isArray(activeVideoList) &&
                 activeVideoList.length &&
                 activeVideoList.map((item, index) => {
-                  return (
-                    <VideoPlayer
-                      key={item.sources}
-                      videoUrl={item.sources}
-                      isSoundOn={isSoundOn}
-                      handleSound={handleSound}
-                      videoIndex={item.index}
-                      // handleCurrentActive={handleCurrentActive}
+                  return item.type === "quiz" ? (
+                    <QuizItem
+                      items={item.questions}
+//                      submitted={(index) => handleQuizSubmit(index)}
                     />
-                  );
-                })}
+                    ) : (
+                      <VideoPlayer
+                        key={item.sources}
+                        videoUrl={item.sources}
+                        isSoundOn={isSoundOn}
+                        handleSound={handleSound}
+                        videoIndex={item.index}
+                        // handleCurrentActive={handleCurrentActive}
+                      />
+                      )
+                   })}
             </Slider>
             {isFirstTimeLoad ? (
               <div className="animate-scroll-up">
